@@ -1,0 +1,16 @@
+{
+  "name": "signal-new-year-automation",
+  "version": "1.0.0",
+  "description": "Sends New Year wishes to your Signal friends so you don't have to.",
+  "main": "script.js",
+  "scripts": {
+    "driver": "./node_modules/.bin/chromedriver --port=9515",
+    "automate": "node script.js"
+  },
+  "author": "Matei Sirbu",
+  "license": "ISC",
+  "dependencies": {
+    "electron-chromedriver": "^8.0.0",
+    "selenium-webdriver": "^3.6.0"
+  }
+}
