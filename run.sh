@@ -9,7 +9,6 @@ clear
 echo "Running automation at ${whenToRun}."
 
 npm run driver &
-DRIVER_PID=$$
 
 sleep $sleepSecs
 
